@@ -7,8 +7,8 @@ import com.sunsw.yupaobackend.common.ErrorCode;
 import com.sunsw.yupaobackend.common.ResultUtil;
 import com.sunsw.yupaobackend.exception.BusinessException;
 import com.sunsw.yupaobackend.model.domain.User;
-import com.sunsw.yupaobackend.model.domain.request.UserLoginRequest;
-import com.sunsw.yupaobackend.model.domain.request.UserRegisterRequest;
+import com.sunsw.yupaobackend.model.request.UserLoginRequest;
+import com.sunsw.yupaobackend.model.request.UserRegisterRequest;
 import com.sunsw.yupaobackend.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -27,7 +27,6 @@ import static com.sunsw.yupaobackend.constant.UserConstant.USER_LOGIN_STATE;
 
 /**
  * 用户接口
- * 123
  */
 @RestController
 @RequestMapping("/user")

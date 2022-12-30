@@ -1,4 +1,4 @@
-package com.sunsw.yupaobackend.model.domain.request;
+package com.sunsw.yupaobackend.model.request;
 
 import lombok.Data;
 

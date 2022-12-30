@@ -7,7 +7,7 @@ import com.google.gson.reflect.TypeToken;
 import com.sunsw.yupaobackend.common.ErrorCode;
 import com.sunsw.yupaobackend.exception.BusinessException;
 import com.sunsw.yupaobackend.model.domain.User;
-import com.sunsw.yupaobackend.model.domain.request.UserRegisterRequest;
+import com.sunsw.yupaobackend.model.request.UserRegisterRequest;
 import com.sunsw.yupaobackend.service.UserService;
 import com.sunsw.yupaobackend.mapper.UserMapper;
 import lombok.extern.slf4j.Slf4j;

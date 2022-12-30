@@ -2,7 +2,7 @@ package com.sunsw.yupaobackend.service;
 
 import com.sunsw.yupaobackend.model.domain.User;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.sunsw.yupaobackend.model.domain.request.UserRegisterRequest;
+import com.sunsw.yupaobackend.model.request.UserRegisterRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
